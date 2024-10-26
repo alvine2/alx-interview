@@ -6,7 +6,7 @@ A script: Reads standard input line by line and computes metrics
 
 def parseLogs():
     """
-    Reads log from standard input and generates reports
+    Reads logs from standard input and generates reports
     Reports:
         * Prints log size after reading every 10 lines & at KeyboardInterrupt
     Raises:
